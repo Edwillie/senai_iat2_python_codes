@@ -9,8 +9,7 @@ print(f"Aluno com média {media}.")
 
 if (media >= 7):
     print("Aluno aprovado!")
+elif (media >= 5):
+    print("Aluno em recuperação!")
 else:
-    if (media >= 5):
-        print("Aluno em recuperação!")
-    else:
-        print("Aluno reprovado!")
+    print("Aluno reprovado!")
