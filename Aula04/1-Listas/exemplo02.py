@@ -1,0 +1,11 @@
+numeros=[11,7,2,3,1]
+print(len(numeros))
+print(numeros)
+numeros.append(4)
+print("="*20)
+print(len(numeros))
+print(numeros)
+numeros.insert(0, 222)
+print("="*20)
+print(len(numeros))
+print(numeros)
