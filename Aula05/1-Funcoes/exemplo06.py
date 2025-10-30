@@ -29,4 +29,7 @@ while lValor.upper() != "Q":
         if lValor.upper() != "Q":
             print("Digite um número ou 'Q' para sair!")
 
-ordenaLista(lLista)
+if len(lLista) > 1:
+    ordenaLista(lLista)
+else:
+    print("Não há elementos suficientes para ordenar")    
